@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: ['index.html'],
   theme: {
@@ -7,7 +9,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        red: '#991b1b',
+
+        primary: '#14b8a6',
         dark: '#0f172a',
       },
       screens: {
